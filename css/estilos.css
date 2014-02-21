@@ -1,0 +1,134 @@
+body {margin:0;padding:0;}
+p,h2,h3,h1,h5,h4 {margin:0; padding:0;}
+img {border:0;}
+
+#topo_wrapper, #container_wrapper, #rodape_wrappera {
+    width: 100%;
+}
+
+#topo_wrapper {
+    background-color: rgb(42, 43, 44);
+    box-shadow: rgba(0, 0, 0, 0.701961) 0px 0px 5px 0px;
+    border-top: 0px solid rgb(42, 43, 44);
+    border-bottom: 0px solid rgb(42, 43, 44);
+}
+
+#topo {
+    width: 940px;
+    margin:0 auto;
+    height: 85px;
+}
+
+#topo .descricao_logo {
+    font: normal normal normal 32px/1.1em 'open sans', sans-serif;
+    color: rgb(255, 255, 255);
+    float: left;
+    margin-top: 30px;
+    font-family: 'Bad Script', cursive;
+}
+
+#topo .cred {
+    color: rgb(93,152,246);
+}
+
+#logo {
+    
+}
+
+#menu {
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    float: right;
+    width:  480px;
+    height: 60px;
+    text-align: right;
+    margin-top:30px;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul a {
+    text-decoration: none;
+}
+
+#menu ul li {
+   position: relative;
+   display: inline;
+   padding-bottom: 20px;
+}
+#menu ul li a {
+    text-transform: uppercase;
+    padding: 10px 5px;
+    background: rgb(93,152,246);
+    color:#FFF;
+}
+
+#menu ul li a:hover {
+    background: #fff;
+    color:rgb(93,152,246);
+}
+
+#menu ul li ul { 
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: -45px;
+    text-align: left;
+}
+
+#menu ul li:hover ul{
+    display: block;
+}
+
+#menu ul li ul li{
+    float:left;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    color:#FFF;
+    width: 300px;
+}
+
+#container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+#slider {
+    margin-top:20px;
+    width: 940px;
+    height: 370px;
+}
+#slider img {
+    width: 940px;
+    height: 370px;
+}
+
+#bloco_inf {
+    width: 980px;
+    height: 280px;
+    margin-top: 10px;
+}
+#bloco_inf p {
+    color: rgb(112,100,100);
+    font-size: 13px;
+    margin-top:10px;
+    line-height: 18px;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.inf:first-child {
+    margin-left:0;
+}
+.inf{
+    width: 300px;
+    float: left;
+    margin-left: 15px;
+}
+.inf h2 {
+    padding:  10px 5px;
+    background: rgb(93,152,246);
+    color: #FFF;
+    font-family: 'Droid Sans', sans-serif;
+}
