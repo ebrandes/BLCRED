@@ -73,7 +73,7 @@ img {border:0;}
 #menu ul li ul { 
     display: none;
     position: absolute;
-    top: 35px;
+    top: 35px; 
     left: -45px;
     text-align: left;
 }
