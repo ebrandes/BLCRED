@@ -39,56 +39,11 @@ img {border:0;}
     font-family: 'Dosis', sans-serif;
     font-size: 15px;
     float: right;
-    width:  480px;
     height: 60px;
     text-align: right;
     margin-top:30px;
 }
 
-#menu ul {
-    list-style: none;
-}
-
-#menu ul a {
-    text-decoration: none;
-}
-
-#menu ul li {
-   position: relative;
-   display: inline;
-   padding-bottom: 20px;
-}
-#menu ul li a {
-    text-transform: uppercase;
-    padding: 10px 5px;
-    background: rgb(93,152,246);
-    color:#FFF;
-}
-
-#menu ul li a:hover {
-    background: #fff;
-    color:rgb(93,152,246);
-}
-
-#menu ul li ul { 
-    display: none;
-    position: absolute;
-    top: 35px; 
-    left: -45px;
-    text-align: left;
-}
-
-#menu ul li:hover ul{
-    display: block;
-}
-
-#menu ul li ul li{
-    float:left;
-    text-transform: uppercase;
-    padding: 10px 5px;
-    color:#FFF;
-    width: 300px;
-}
 
 #container {
     width: 940px;
@@ -131,4 +86,88 @@ img {border:0;}
     background: rgb(93,152,246);
     color: #FFF;
     font-family: 'Droid Sans', sans-serif;
+}
+
+.contactUs {
+    background: #555658;
+    float: left;
+    margin-left: 35px;
+    width: 290px;
+    height: 220px;
+}
+
+.contactUs h2 {
+    padding: 10px 5px;
+    color: #FFF;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.contactUs p {
+    line-height: 18px !important;
+    margin: 0;
+    padding: 0 10px;
+    float: left;
+}
+
+.tel {
+    width: 100% !important;
+    margin-top:10px !important;
+    color:#fff !important;
+}
+
+.telNumero {
+    width: 100%;
+    float:left;
+    font-size: 13px;
+    margin-top: 0px !important;
+    color: #c5c3c4 !important;
+}
+
+.desc_inf {
+    color: #c5c3c4 !important;
+    margin-top:-5px !important;
+}
+
+.email {
+    width: 100%;
+    float:left;
+    color:#FFF !important;
+}
+
+.emailTo {
+    width: 100%;
+    float:left;
+    margin-top:0 !important;
+    color:#c5c3c4 !important;
+}
+
+
+.btn {
+        margin-top: 10px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background-color:#007dc1;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.btn:hover {
+	background-color:#0061a7;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.clear{
+    clear: both;
 }
